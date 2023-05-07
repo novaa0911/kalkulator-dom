@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator DOM</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator DOM</h1>
+            <div class="inputan">
+            <input type="text" id="angka1" placeholder="Masukkan Angka Pertama">
+            <input type="text" id="angka2" placeholder="Masukkan Angka Kedua">
+            </div>
+        <div class="operation">
+            <button onclick="tambah()">+</button>
+            <button onclick="kurang()">-</button>
+            <button onclick="kali()">x</button>
+            <button onclick="bagi()">/</button>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        <div class="hasil">
+            <input type="text" id="hasil" disabled placeholder="HASIL">
+        </div>
+        <script src="kalkulator.js"></script>
+    </div>
+</body>
+</html>
